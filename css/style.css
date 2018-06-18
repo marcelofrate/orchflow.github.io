@@ -1,0 +1,52 @@
+body {
+  background: url("../img/background.jpg") no-repeat;
+  color: white;
+}
+
+.main-content{
+  text-align: center;
+  background: linear-gradient(to top, rgba(0,0,0,0.01), rgba(0,0,0,1));
+  width: 100%;
+  padding-left: 10vh;
+  padding-top: 20vh;
+  padding-bottom: 5vh;
+}
+
+.documentation{
+  text-align: center;
+  padding-left: 10vh;
+  color: white;
+  padding-top: 10vh;
+}
+
+.author{
+  padding-top: 10vh;
+  width: 15%;
+  padding-left: 15vh;
+  position: center;
+  color: white;
+  float: left;
+}
+
+.big-rounded-image{
+  margin-left: 2vh;
+  background: white;
+  width: 3%;
+  border-radius: 120px;
+}
+
+.author-bio{
+  position: center;
+  padding-left: 4vh;
+  padding-top: 10vh;
+}
+
+.rounded-image{
+  width: 100%;
+  border-radius: 100px;
+}
+
+.name{
+  font-size: 15px;
+  margin-top: 1vh;
+}
