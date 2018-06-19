@@ -1,0 +1,181 @@
+	html, body{
+		height: 100%;
+	}
+	
+	body{
+		margin: 0px;
+		padding: 0px;
+		background: #243151;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 11pt;
+		font-weight: 200;
+		color: #656565;
+	}
+	
+	h1, h2, h3{
+		margin: 0;
+		padding: 0;
+		font-weight: 700;
+		color: #2B3F48;
+	}
+	
+	p, ol, ul{
+		margin-top: 0;
+	}
+	
+	ol, ul{
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.actions{
+		text-align: center;
+	}
+	
+	p{
+		line-height: 180%;
+	}
+	
+	a{
+		color: #0000FF;
+	}
+	
+	a:hover{
+		text-decoration: none;
+	}
+	
+	.container{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1000px;
+	}
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button{
+		display: inline-block;
+		padding: 0em 3em;
+		background: #243151;
+		border-radius: 8px;
+		letter-spacing: 0.20em;
+		line-height: 4em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1em;
+		color: #FFF;
+	}
+	
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title{
+		margin-bottom: 3em;
+	}
+	
+	.title h2{
+		text-transform: uppercase;
+		font-size: 2.7em;
+	}
+	
+	.title .byline{
+		font-size: 1.7em;
+		color: #6F6F6F;
+	}
+		
+	#wrapper{
+		background: #FFF;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header{
+		position: relative;
+		padding: 5em 0em;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo{
+		position: absolute;
+		top: 4em;
+		left: 0;
+	}
+	
+	#logo h1{
+		color: #243151;
+	}
+	
+	#logo a{
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #243151;
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu{
+		position: absolute;
+		top: 4.5em;
+		right: 0;
+	}
+	
+	#menu ul{
+		display: inline-block;
+	}
+	
+	#menu li{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span{
+		padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		color: #2B3F48;
+	}
+	
+	#menu .current_page_item a{
+		border: 2px solid #243151;
+		background: #243151;
+		border-radius: 6px;
+		color: #FFF;
+	}
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+	#featured{
+		overflow: hidden;
+		padding: 5em 0em;
+		background: #36549D;
+		color: rgba(255,255,255,.8);
+		text-align: center;
+	}
+
+	#featured a{
+		color: rgba(255,255,255,1);
+	}
+	
+	#featured .button{
+		background: #FFF;
+		margin-top: 3em;
+		font-size: 1em;
+		color: #243151;
+	}
+
+	#featured .title h2{
+		color: #FFF;
+	}
